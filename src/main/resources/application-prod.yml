@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lol
+    username: liferay
+    password: liferay
+  jpa:
+    hibernate:
+      ddl-auto: validate

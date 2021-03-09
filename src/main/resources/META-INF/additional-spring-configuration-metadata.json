@@ -1,0 +1,56 @@
+{
+  "hints": [
+    {
+      "name": "mysetting.cache",
+      "values": [
+        {
+          "value": "on"
+        },
+        {
+          "value": "off"
+        }
+      ]
+    },
+    {
+      "name": "mysetting.tagservice.impl",
+      "values": [
+        {
+          "value": "jpa"
+        },
+        {
+          "value": "jpa-repository"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "mysetting.cache",
+      "type": "java.lang.String",
+      "description": "разрешить кэш",
+      "defaultValue": "off",
+      "values": [
+        {
+          "value": "on"
+        },
+        {
+          "value": "off"
+        }
+      ]
+    },
+    {
+      "name": "mysetting.tagservice.impl",
+      "type": "java.lang.String",
+      "description": "реализация tagservice",
+      "defaultValue": "jpa",
+      "values": [
+        {
+          "value": "jpa"
+        },
+        {
+          "value": "jpa-repository"
+        }
+      ]
+    }
+]
+}
